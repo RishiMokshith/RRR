@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>aa</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+ <Servlet>
+  <Servlet-name>s1</Servlet-name>
+  <Servlet-class>com.test.Servlet1</Servlet-class>
+  </Servlet>
+  <context-param>
+  <param-name>city</param-name>
+  <param-value>Blr</param-value>
+  </context-param>
+  <context-param>
+  <param-name>state</param-name>
+  <param-value>KA</param-value>
+  </context-param>
+  <param-name>s1</param-name>
+  <url-pattern>/context</url-pattern>
+  <Serrvlet-mapping>
+  
+  </Serrvlet-mapping>
+  </web-app>
